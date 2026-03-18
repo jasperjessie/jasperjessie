@@ -7,6 +7,94 @@
  * places to add some flare.
  */
 
+/* -------------------------------
+   Custom Consulting Theme
+-------------------------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f4f4f6 50%,
+    #eeeeee 100%
+  );
+  color: #2a2a2a;
+}
+
+/* accent color */
+a,
+.notion-link {
+  color: #7a1f2b;
+  transition: color 0.2s ease;
+}
+
+a:hover,
+.notion-link:hover {
+  color: #a83244;
+}
+
+/* headings */
+.notion-h1,
+.notion-h2,
+.notion-h3 {
+  color: #7a1f2b;
+  font-weight: 600;
+}
+
+/* main page container */
+.notion {
+  --notion-max-width: 900px;
+}
+
+/* cleaner sections */
+.notion-page {
+  background: white;
+  border-radius: 14px;
+  padding: 40px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+}
+
+/* navbar */
+.notion-header {
+  background: rgba(255,255,255,0.9);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #ececec;
+}
+
+/* quote block */
+.notion-quote {
+  border-left: 4px solid #7a1f2b;
+}
+
+/* buttons / callouts */
+.notion-callout {
+  border-radius: 10px;
+  background: #f6f6f8;
+  padding: 14px;
+}
+
+/* card hover effect */
+.notion-collection-card:hover {
+  transform: translateY(-4px);
+  transition: transform 0.2s ease;
+}
+
+/* scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7a1f2b;
+  border-radius: 10px;
+}
+
+/*actual*/
+
 .notion {
   --notion-max-width: 720px;
   --notion-header-height: 54px;
