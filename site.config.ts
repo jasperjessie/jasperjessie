@@ -9,8 +9,8 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  //name: 'Next.js Notion Starter Kit',
-  //domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  name: 'Next.js Notion Starter Kit',
+  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
   author: 'Jasper Jessie',
 
   // open graph metadata (optional)
